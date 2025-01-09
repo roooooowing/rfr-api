@@ -41,24 +41,24 @@
 ```
 {
   "baseInfo": {
-    "code": "test_2",
-    "name": "测试2",
-    "dataSetId": 88
-  },
-  "conditions": [
-  ],
-  "timeJobConfig": {
-  },
-  "actions": [
-    1
-  ],
-  "repeatConfig": {
-    "checkFields": [
-      "field_1"
-    ],
-    "checkTimeNum": 1,
-    "checkTimeUnit": 3
-  }
+    "code": "code_efIev98msI",
+    "name": "name_Io804FnxAV",
+    "dataSetId": 111
+},
+"conditions": [
+],
+"timeJobConfig": {
+},
+"actions": [
+1
+],
+"repeatConfig": {
+"checkFields": [
+"field_1"
+],
+"checkTimeNum": 1,
+"checkTimeUnit": 3
+}
 }
 ```
 
