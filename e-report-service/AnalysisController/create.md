@@ -41,8 +41,8 @@
 ```
 {
   "baseInfo": {
-    "code": "code_nVOq3nogqr",
-    "name": "name_H4zHSsRu8S",
+    "code": "code_20250109_115503",
+    "name": "name_20250109_115503",
     "dataSetId": 111
 },
 "conditions": [
