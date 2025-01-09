@@ -41,8 +41,8 @@
 ```
 {
   "baseInfo": {
-    "code": "code_GkLx76wIta",
-    "name": "name_KMgz6YpTnI",
+    "code": "code_1oDzxQ6bgz",
+    "name": "name_w9Y9ZsFNz7",
     "dataSetId": 111
 },
 "conditions": [
@@ -120,7 +120,16 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "anaId": 0
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
