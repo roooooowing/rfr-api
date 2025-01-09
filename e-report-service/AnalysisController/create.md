@@ -6,9 +6,9 @@
 新建
 ```
 
-> URL: http://localhost:8080/web/v1/analysis/create
+> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
 >
-> Origin Url: http://localhost:8080/web/v1/analysis/create
+> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
 >
 > Type: POST
 
@@ -17,8 +17,8 @@
 
 |Header Name| Header Value|
 |---------|------|
-|x-org-id|10902217|
-|x-user-id|1650360262949770|
+|x-org-id|{{zzw_org}}|
+|x-user-id|{{zzw_user}}|
 
 ### Parameters
 
@@ -41,24 +41,24 @@
 ```
 {
   "baseInfo": {
-    "code": "code_20250109_150035",
-    "name": "name_20250109_150035",
+    "code": "code_20250109_191528",
+    "name": "name_20250109_191528",
     "dataSetId": 111
-},
-"conditions": [
-],
-"timeJobConfig": {
-},
-"actions": [
-1
-],
-"repeatConfig": {
-"checkFields": [
-"field_1"
-],
-"checkTimeNum": 1,
-"checkTimeUnit": 3
-}
+  },
+  "conditions": [
+  ],
+  "timeJobConfig": {
+  },
+  "actions": [
+    1
+  ],
+  "repeatConfig": {
+    "checkFields": [
+      "field_1"
+    ],
+    "checkTimeNum": 1,
+    "checkTimeUnit": 3
+  }
 }
 ```
 
@@ -120,16 +120,7 @@
 ##### Response example
 
 ```
-{
-  "code": 200,
-  "data": {
-    "anaId": 0
-  },
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
-}
+
 ```
 
 ##### Response document
