@@ -6,9 +6,9 @@
 新建
 ```
 
-> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
+> URL: http://localhost:8080/web/v1/analysis/create
 >
-> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
+> Origin Url: http://localhost:8080/web/v1/analysis/create
 >
 > Type: POST
 
@@ -17,8 +17,8 @@
 
 |Header Name| Header Value|
 |---------|------|
-|x-org-id|{{zzw_org}}|
-|x-user-id|{{zzw_user}}|
+|x-org-id|10902217|
+|x-user-id|1650360262949770|
 
 ### Parameters
 
@@ -41,8 +41,8 @@
 ```
 {
   "baseInfo": {
-    "code": "code_20250109_191528",
-    "name": "name_20250109_191528",
+    "code": "code_20250109_192318",
+    "name": "name_20250109_192318",
     "dataSetId": 111
   },
   "conditions": [
