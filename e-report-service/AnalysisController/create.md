@@ -6,9 +6,9 @@
 新建
 ```
 
-> URL: http://localhost:8080/web/v1/analysis/create
+> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
 >
-> Origin Url: http://localhost:8080/web/v1/analysis/create
+> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/create
 >
 > Type: POST
 
@@ -41,8 +41,8 @@
 ```
 {
   "baseInfo": {
-    "code": "code_20250110_135225",
-    "name": "name_20250110_135225",
+    "code": "code_20250110_160136",
+    "name": "name_20250110_160136",
     "dataSetId": 111
   },
   "conditions": [
@@ -120,16 +120,7 @@
 ##### Response example
 
 ```
-{
-  "code": 200,
-  "data": {
-    "anaId": 0
-  },
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
-}
+
 ```
 
 ##### Response document
