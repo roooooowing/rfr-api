@@ -41,8 +41,8 @@
 ```
 {
   "baseInfo": {
-    "code": "code_{{$currentDateTime}}",
-    "name": "name_{{$currentDateTime}}",
+    "code": "code_20250110_135144",
+    "name": "name_20250110_135144",
     "dataSetId": 111
   },
   "conditions": [
