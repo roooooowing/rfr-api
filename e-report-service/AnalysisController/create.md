@@ -41,7 +41,6 @@
 ```
 {
   "baseInfo": {
-//    "code": "code",
     "code": "code_{{$currentDateTime}}",
     "name": "name_{{$currentDateTime}}",
     "dataSetId": 111
