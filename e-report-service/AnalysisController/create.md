@@ -41,9 +41,9 @@
 ```
 {
   "baseInfo": {
-    "code": "code",
-//    "code": "code_20250110_112320",
-    "name": "name_20250110_112320",
+//    "code": "code",
+    "code": "code_{{$currentDateTime}}",
+    "name": "name_{{$currentDateTime}}",
     "dataSetId": 111
   },
   "conditions": [
@@ -121,7 +121,12 @@
 ##### Response example
 
 ```
-
+{
+  "code": 0,
+  "subCode": "E-REPORT-DOMAIN-LOCAL/ANA_REPEAT_ERR",
+  "message": "CODE或名称重复",
+  "needCheck": 0
+}
 ```
 
 ##### Response document
