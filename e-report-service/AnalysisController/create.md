@@ -41,8 +41,9 @@
 ```
 {
   "baseInfo": {
-    "code": "code_20250110_135151",
-    "name": "name_20250110_135151",
+//    "code": "code",
+    "code": "code_20250110_135219",
+    "name": "name_20250110_135219",
     "dataSetId": 111
   },
   "conditions": [
@@ -121,10 +122,14 @@
 
 ```
 {
-  "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/ANA_REPEAT_ERR",
-  "message": "CODE或名称重复",
-  "needCheck": 0
+  "code": 200,
+  "data": {
+    "anaId": 0
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
