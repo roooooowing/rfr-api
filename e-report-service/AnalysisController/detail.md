@@ -69,11 +69,13 @@
 
 ```
 {
-  "code": 0,
-  "data": "class java.lang.Long cannot be cast to class java.lang.Integer (java.lang.Long and java.lang.Integer are in module java.base of loader 'bootstrap') (through reference chain: tech.blacklake.infra.boot.common.data.Result[\"data\"]->tech.blacklake.dev.e.report.controller.web.vo.analysis.AnalysisDetailVO[\"actions\"]->java.util.ArrayList[0])",
-  "subCode": "E-REPORT-DOMAIN-LOCAL/BAD_REQUEST",
-  "message": "请求参数错误: data.actions",
-  "needCheck": 0,
+  "code": 200,
+  "data": {
+    "anaId": 1736496691049001
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
   "fieldPermission": null
 }
 ```
