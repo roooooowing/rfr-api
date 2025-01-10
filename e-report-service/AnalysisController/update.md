@@ -42,8 +42,8 @@
 {
     "baseInfo": {
       "anaId": 1736496691049001,
-      "code": "code_20250110_161130",
-      "name": "name_20250110_161130",
+      "code": "999",
+      "name": "999",
       "dataSetId": 111
     },
     "condition": null,
