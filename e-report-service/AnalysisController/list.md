@@ -40,7 +40,7 @@
 
 ```
 {
-  "quickSearch": "quickSearch_59ykp"
+  "quickSearch": "2025"
 }
 ```
 
