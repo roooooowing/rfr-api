@@ -72,445 +72,235 @@
   "code": 200,
   "data": [
     {
-      "baseInfo": {
-        "anaId": 1736488504135001,
-        "code": "code_20250110_135503",
-        "name": "name_20250110_135503",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1704873483446296,
+      "dataSetName": "ak01",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736479404878017,
-        "code": "code_20250110_135314",
-        "name": "name_20250110_135314",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1711318027539885,
+      "dataSetName": "copy0011",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736479404878014,
-        "code": "code_20250110_135248",
-        "name": "name_20250110_135248",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1709714582943830,
+      "dataSetName": "cwpcszy001",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736479404878011,
-        "code": "code_20250110_135222",
-        "name": "name_20250110_135222",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1724748738774002,
+      "dataSetName": "gm测试222",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736479404878008,
-        "code": "code_20250110_135156",
-        "name": "name_20250110_135156",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705433981406613,
+      "dataSetName": "m117预置数据集01",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": "新建预置数据集，用于测试使用，勿动"
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764036,
-        "code": "code",
-        "name": "name_20250109_201021",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705434537871008,
+      "dataSetName": "m117预置数据集01",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764033,
-        "code": "code_20250109_200945",
-        "name": "name_20250109_200945",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1715292670106286,
+      "dataSetName": "testjt",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764030,
-        "code": "code_20250109_200923",
-        "name": "name_20250109_200923",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1709182479803568,
+      "dataSetName": "ypoc021",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764022,
-        "code": "code_20250109_193441",
-        "name": "name_20250109_193441",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1709157993325043,
+      "dataSetName": "定制筛选3",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764019,
-        "code": "code_20250109_193146",
-        "name": "name_20250109_193146",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1709158430394191,
+      "dataSetName": "定制筛选3a",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764017,
-        "code": "code_20250109_193028",
-        "name": "name_20250109_193028",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1709157993325075,
+      "dataSetName": "定制筛选3a",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764013,
-        "code": "code_20250109_192955",
-        "name": "name_20250109_192955",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705985677470304,
+      "dataSetName": "工单日报表",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764010,
-        "code": "code_20250109_192902",
-        "name": "name_20250109_192902",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705986552216538,
+      "dataSetName": "工单日报表",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764007,
-        "code": "code_20250109_192856",
-        "name": "name_20250109_192856",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705985677470349,
+      "dataSetName": "工序进度日报",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764004,
-        "code": "code_20250109_192803",
-        "name": "name_20250109_192803",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705985677470381,
+      "dataSetName": "库存批次表",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736422070764001,
-        "code": "code_20250109_192750",
-        "name": "name_20250109_192750",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1706673960514782,
+      "dataSetName": "库存批次表02",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736408621821001,
-        "code": "code_20250109_154341",
-        "name": "name_20250109_154341",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1705534686658348,
+      "dataSetName": "库存明细1万5千条",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736388952068060,
-        "code": "code_20250109_115534",
-        "name": "name_20250109_115534",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1704861678160026,
+      "dataSetName": "数据集01",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736388952068057,
-        "code": "code_20250109_115503",
-        "name": "name_20250109_115503",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1704860295990004,
+      "dataSetName": "数据集01",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736388952068054,
-        "code": "code_20250109_115348",
-        "name": "name_20250109_115348",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1704861678160004,
+      "dataSetName": "数据集01",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
     },
     {
-      "baseInfo": {
-        "anaId": 1736388952068051,
-        "code": "code_20250109_111224",
-        "name": "name_20250109_111224",
-        "status": null,
-        "dataSetId": 111
-      },
-      "condition": null,
-      "timeJobConfig": null,
-      "actions": [
-        1
-      ],
-      "repeatConfig": {
-        "checkFields": [
-          "field_1"
-        ],
-        "checkTimeNum": 1,
-        "checkTimeUnit": 3
-      }
+      "dataSetId": 1704860295990017,
+      "dataSetName": "数据集02",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1705567849519176,
+      "dataSetName": "测试一下数据集",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1704652503876731,
+      "dataSetName": "测试生产主题",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1704652503876721,
+      "dataSetName": "测试生产主题带limit",
+      "dataSetGenMode": 3,
+      "dataSetType": 3,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1725860608743057,
+      "dataSetName": "测试预置仓储xpf1",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1705985677470366,
+      "dataSetName": "物料仓库仓位表",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1708639215603734,
+      "dataSetName": "筛选1",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1709767623185359,
+      "dataSetName": "筛选3",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1710367677341211,
+      "dataSetName": "筛选4",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1710469703512531,
+      "dataSetName": "筛选5",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1735800650704149,
+      "dataSetName": "超期预警及库存超期",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1736331954615535,
+      "dataSetName": "超期预警及库存超期my",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
+    },
+    {
+      "dataSetId": 1724116200294170,
+      "dataSetName": "预置数据集0820005",
+      "dataSetGenMode": 3,
+      "dataSetType": 1,
+      "remark": ""
     }
   ],
   "subCode": null,
