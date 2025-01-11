@@ -40,7 +40,7 @@
 
 ```
 {
-  "anaId": 1
+  "anaId": 1736577089298005
 }
 ```
 
@@ -68,7 +68,16 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "anaId": 1736577089298005
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
