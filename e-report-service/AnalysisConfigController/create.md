@@ -41,13 +41,12 @@
 ```
 {
   "baseInfo": {
-    "name": "name_20250111_143121",
+    "name": "name_20250111_143141",
     "dataSetId": 1
   },
   "conditions": [
   ],
   "timeJobConfig": {
-
   },
   "actions": [
     1
@@ -120,7 +119,16 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "anaId": 1736577089298001
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
