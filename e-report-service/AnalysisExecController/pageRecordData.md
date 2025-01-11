@@ -81,12 +81,10 @@
 
 ```
 {
-  "code": 200,
-  "data": null,
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
+  "code": 0,
+  "subCode": "E-REPORT-DOMAIN-LOCAL/UNKNOWN_EXCEPTION",
+  "message": "未知异常：00000000000000000000000000000000",
+  "needCheck": 0
 }
 ```
 
