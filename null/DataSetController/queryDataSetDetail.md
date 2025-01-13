@@ -68,7 +68,13 @@
 ##### Response example
 
 ```
-
+{
+  "code": 0,
+  "data": "default backend - 404",
+  "subCode": "E-REPORT-DOMAIN-LOCAL/FEIGN_EX",
+  "message": "[404 Not Found] during [POST] to [http://api-adapter-feature.test.blacklake.tech/api/v1/route/_exec] [RouteApi#execRouteIntegrationInterface(ExecRouteCO)]: [default backend - 404]",
+  "needCheck": 0
+}
 ```
 
 ##### Response document
