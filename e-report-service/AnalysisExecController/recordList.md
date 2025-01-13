@@ -78,29 +78,7 @@
 ##### Response example
 
 ```
-{
-  "code": 200,
-  "data": {
-    "list": [
-      {
-        "anaId": 1736577089298009,
-        "totalCount": 100,
-        "repeatCount": 0
-      },
-      {
-        "anaId": 1736577089298009,
-        "totalCount": 100,
-        "repeatCount": 0
-      }
-    ],
-    "page": 1,
-    "total": 2
-  },
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
-}
+
 ```
 
 ##### Response document
