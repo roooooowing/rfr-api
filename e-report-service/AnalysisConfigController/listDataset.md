@@ -3,7 +3,7 @@
 ### Method description
 
 ```
-可选数据集-列表
+可选数据集
 ```
 
 > URL: http://localhost:8080/web/v1/analysis/config/dataset/optional_list
@@ -40,7 +40,7 @@
 
 ```
 {
-  "bizTheme": 1
+  "quickSearch": "quickSearch_3b59n"
 }
 ```
 
@@ -48,7 +48,7 @@
 
 ```
 {
-	"bizTheme":"业务主题"
+	"quickSearch":"快速搜索"
 }
 ```
 
@@ -69,10 +69,37 @@
 
 ```
 {
-  "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/SQL_EXCEPTION",
-  "message": "sql异常：00000000000000000000000000000000",
-  "needCheck": 0
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "anaId": 1736577089298009,
+        "code": "ana_1736577428956",
+        "name": "name_20250111_143708",
+        "totalCount": 100,
+        "repeatCount": 0,
+        "id": 1736584998229005,
+        "createdAt": 1736585091000,
+        "updatedAt": 1736585091000
+      },
+      {
+        "anaId": 1736577089298009,
+        "code": "ana_1736577428956",
+        "name": "name_20250111_143708",
+        "totalCount": 100,
+        "repeatCount": 0,
+        "id": 1736584998229109,
+        "createdAt": 1736585107000,
+        "updatedAt": 1736585107000
+      }
+    ],
+    "page": 1,
+    "total": 2
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
