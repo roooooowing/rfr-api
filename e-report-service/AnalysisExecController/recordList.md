@@ -81,9 +81,20 @@
 {
   "code": 200,
   "data": {
-    "list": [],
+    "list": [
+      {
+        "anaId": 1736577089298009,
+        "totalCount": 100,
+        "repeatCount": 0
+      },
+      {
+        "anaId": 1736577089298009,
+        "totalCount": 100,
+        "repeatCount": 0
+      }
+    ],
     "page": 1,
-    "total": 0
+    "total": 2
   },
   "subCode": null,
   "message": "成功",
