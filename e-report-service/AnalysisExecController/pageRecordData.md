@@ -3,7 +3,7 @@
 ### Method description
 
 ```
-分析告警记录-数据
+记录-数据
 ```
 
 > URL: http://localhost:8080/web/v1/analysis/exec/record/page_data
@@ -83,130 +83,7 @@
 {
   "code": 200,
   "data": {
-    "list": [
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      },
-      {
-        "anaId": 1736577089298009,
-        "anaExecId": 1736584998229005,
-        "repeatKey": null,
-        "data": null
-      }
-    ],
-    "page": 1,
-    "total": 100
+    "anaId": 1736752165634001
   },
   "subCode": null,
   "message": "成功",
