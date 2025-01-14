@@ -40,7 +40,7 @@
 
 ```
 {
-  "quickSearch": "quickSearch_ed1x6",
+  "quickSearch": "",
   "page": 1,
   "size": 20,
   "sorter": [
@@ -87,10 +87,16 @@
 
 ```
 {
-  "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/ANA_REPEAT_ERR",
-  "message": "CODE或名称重复",
-  "needCheck": 0
+  "code": 200,
+  "data": {
+    "list": [],
+    "page": 1,
+    "total": 0
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
