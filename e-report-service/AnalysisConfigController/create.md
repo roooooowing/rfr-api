@@ -41,7 +41,7 @@
 ```
 {
   "baseInfo": {
-    "name": "name_20250114_112532",
+    "name": "name_20250114_112637",
     "dataSetId": 1709767623185359
   },
   "conditions": [
@@ -122,29 +122,7 @@
 {
   "code": 200,
   "data": {
-    "dataSetId": 1736757383996501,
-    "conditionFields": [
-      {
-        "fieldCode": "org_id",
-        "fieldName": "租户org_id",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "organization_name",
-        "fieldName": "租户名称",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "_date",
-        "fieldName": "统计时间断",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "count",
-        "fieldName": "条数",
-        "fieldType": 2
-      }
-    ]
+    "anaId": 1736825194566001
   },
   "subCode": null,
   "message": "成功",
