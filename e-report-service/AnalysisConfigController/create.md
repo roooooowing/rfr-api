@@ -41,7 +41,7 @@
 ```
 {
   "baseInfo": {
-    "name": "name_20250111_143707",
+    "name": "name_20250114_112441",
     "dataSetId": 1709767623185359
   },
   "conditions": [
@@ -120,10 +120,36 @@
 
 ```
 {
-  "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/COMMON_MESSAGE",
-  "message": "SQL执行失败:{0}",
-  "needCheck": 0
+  "code": 200,
+  "data": {
+    "dataSetId": 1736757383996501,
+    "conditionFields": [
+      {
+        "fieldCode": "org_id",
+        "fieldName": "租户org_id",
+        "fieldType": 1
+      },
+      {
+        "fieldCode": "organization_name",
+        "fieldName": "租户名称",
+        "fieldType": 1
+      },
+      {
+        "fieldCode": "_date",
+        "fieldName": "统计时间断",
+        "fieldType": 1
+      },
+      {
+        "fieldCode": "count",
+        "fieldName": "条数",
+        "fieldType": 2
+      }
+    ]
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
