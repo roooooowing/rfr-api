@@ -71,7 +71,16 @@
 {
   "code": 200,
   "data": {
-    "anaId": 1736825194566001
+    "baseInfo": {
+      "anaId": 1736825194566001,
+      "code": "ana_1736825194738",
+      "name": "name_20250114_112634",
+      "status": 0,
+      "dataSetId": 1709767623185359
+    },
+    "actions": [
+      1
+    ]
   },
   "subCode": null,
   "message": "成功",
