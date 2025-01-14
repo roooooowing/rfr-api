@@ -68,16 +68,7 @@
 ##### Response example
 
 ```
-{
-  "code": 200,
-  "data": {
-    "anaId": 1736577089298009
-  },
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
-}
+
 ```
 
 ##### Response document
