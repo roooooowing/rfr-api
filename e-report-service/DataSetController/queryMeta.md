@@ -6,9 +6,9 @@
 数据集元数据
 ```
 
-> URL: http://localhost:8080/web/v1/data_set/dataset/query_meta
+> URL: http://localhost:8080/web/v1/data_set/query_meta
 >
-> Origin Url: http://localhost:8080/web/v1/data_set/dataset/query_meta
+> Origin Url: http://localhost:8080/web/v1/dataset/query_meta
 >
 > Type: POST
 
@@ -71,11 +71,11 @@
 
 ```
 {
-  "code": 0,
-  "data": "default backend - 404",
-  "subCode": "E-REPORT-DOMAIN-LOCAL/FEIGN_EX",
-  "message": "[404 Not Found] during [POST] to [http://api-adapter-feature.test.blacklake.tech/api/v1/route/_exec] [RouteApi#execRouteIntegrationInterface(ExecRouteCO)]: [default backend - 404]",
-  "needCheck": 0
+  "timestamp": 1736822307641,
+  "status": 404,
+  "error": "Not Found",
+  "message": "",
+  "path": "/web/v1/dataset/query_meta"
 }
 ```
 
