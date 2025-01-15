@@ -41,8 +41,7 @@
 ```
 {
   "baseInfo": {
-    "anaId": 1,
-    "name": "t1告警",
+    "name": "t2告警",
     "dataSetId": 1715292670106286
   },
   "actions": [
