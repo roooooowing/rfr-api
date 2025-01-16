@@ -6,9 +6,9 @@
 详情
 ```
 
-> URL: http://localhost:8080/web/v1/analysis/config/detail
+> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/detail
 >
-> Origin Url: http://localhost:8080/web/v1/analysis/config/detail
+> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/detail
 >
 > Type: POST
 
@@ -68,7 +68,41 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "baseInfo": {
+      "anaId": 1736831462473803,
+      "code": "ana_1736853253043",
+      "name": "t3告警",
+      "status": 0,
+      "dataSetId": 1715292670106286
+    },
+    "conditions": [
+      [
+        {
+          "fieldCode": "work_order_shift_name",
+          "conditionType": 0,
+          "rightPart": {
+            "value": "123",
+            "valueType": 1,
+            "fromValue": null,
+            "toValue": null
+          }
+        }
+      ]
+    ],
+    "timeJobConfig": null,
+    "actions": [
+      1
+    ],
+    "repeatConfig": null
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
