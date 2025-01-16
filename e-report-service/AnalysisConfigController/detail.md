@@ -18,7 +18,7 @@
 |Header Name| Header Value|
 |---------|------|
 |x-org-id|10902217|
-|x-user-id|1650360262949770|
+|x-user-id|-1|
 
 ### Parameters
 
@@ -71,29 +71,71 @@
 {
   "code": 200,
   "data": {
-    "dataSetId": 1736757383996501,
-    "conditionFields": [
-      {
-        "fieldCode": "org_id",
-        "fieldName": "租户org_id",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "organization_name",
-        "fieldName": "租户名称",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "_date",
-        "fieldName": "统计时间断",
-        "fieldType": 1
-      },
-      {
-        "fieldCode": "count",
-        "fieldName": "条数",
-        "fieldType": 2
-      }
-    ]
+    "baseInfo": {
+      "anaId": 1736825194566001,
+      "code": "ana_1736825194738",
+      "name": "name_20250114_112634",
+      "status": 0,
+      "dataSetId": 1709767623185359
+    },
+    "actions": [
+      1
+    ],
+    "dataSetMeta": {
+      "dataSetId": 1709767623185359,
+      "displayFields": [
+        {
+          "fieldCode": "org_id",
+          "fieldName": "工厂ID",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "process_id",
+          "fieldName": "工单工序id",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "work_order_shift_name",
+          "fieldName": "工单班次名",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "work_order_id",
+          "fieldName": "工单id",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "work_order_code",
+          "fieldName": "工单编号",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "work_order_plan_start_time",
+          "fieldName": "计划开始时间",
+          "fieldType": 8
+        },
+        {
+          "fieldCode": "work_order_plan_finish_time",
+          "fieldName": "计划完工时间",
+          "fieldType": 8
+        },
+        {
+          "fieldCode": "process_plan_amount",
+          "fieldName": "工序计划数",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "process_node_num",
+          "fieldName": "工单工序号",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "process_name",
+          "fieldName": "工单工序名称",
+          "fieldType": 1
+        }
+      ]
+    }
   },
   "subCode": null,
   "message": "成功",
