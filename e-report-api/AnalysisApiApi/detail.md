@@ -40,7 +40,7 @@
 
 ```
 {
-  "anaId": 1736825194566001
+  "anaId": 1736897954386751
 }
 ```
 
@@ -80,7 +80,62 @@
     },
     "actions": [
       1
-    ]
+    ],
+    "dataSetMeta": {
+      "dataSetId": 1709767623185359,
+      "displayFields": [
+        {
+          "fieldCode": "org_id",
+          "fieldName": "工厂ID",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "process_id",
+          "fieldName": "工单工序id",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "work_order_shift_name",
+          "fieldName": "工单班次名",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "work_order_id",
+          "fieldName": "工单id",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "work_order_code",
+          "fieldName": "工单编号",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "work_order_plan_start_time",
+          "fieldName": "计划开始时间",
+          "fieldType": 8
+        },
+        {
+          "fieldCode": "work_order_plan_finish_time",
+          "fieldName": "计划完工时间",
+          "fieldType": 8
+        },
+        {
+          "fieldCode": "process_plan_amount",
+          "fieldName": "工序计划数",
+          "fieldType": 2
+        },
+        {
+          "fieldCode": "process_node_num",
+          "fieldName": "工单工序号",
+          "fieldType": 1
+        },
+        {
+          "fieldCode": "process_name",
+          "fieldName": "工单工序名称",
+          "fieldType": 1
+        }
+      ]
+    }
   },
   "subCode": null,
   "message": "成功",
