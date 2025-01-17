@@ -40,57 +40,81 @@
 
 ```
 {
-  "anaId": 1737045480332840,
-  "baseInfo": {
-    "name": "t4告警",
-    "dataSetId": 1705433981406613
-  },
-  "actions": [
-    1
+  "bizReportName": "赵林的报表",
+  "sort": [
   ],
-  "conditions": [
+  "condition": [
     [
       {
         "conditionType": 0,
-        "fieldCode": "work_order_code",
+        "fieldCode": "process_node_num",
         "rightPart": {
           "valueType": 1,
-          "value": "3"
-        }
-      },
-      {
-        "conditionType": 0,
-        "fieldCode": "work_order_status_display",
-        "rightPart": {
-          "valueType": 1,
-          "value": "2"
+          "value": "20"
         }
       }
     ]
   ],
-  "timeJobConfig": {
-    "times": [
-      "04:00:00"
-    ],
-    "customs": [],
-    "days": [
-      5,
-      4,
-      3
-    ],
-    "execType": 4,
-    "firstTime": null,
-    "fixedRate": null,
-    "fixedRateUnit": null,
-    "maxExecCount": null,
-    "stopTime": null,
-    "months": [
-      1,
-      2,
-      3
-    ],
-    "weeks": null
-  }
+  "fieldConfig": [
+    {
+      "fieldCode": "process_id",
+      "freeze": false,
+      "displayType": null,
+      "display": false,
+      "displayName": null
+    },
+    {
+      "fieldCode": "work_order_id",
+      "freeze": false,
+      "displayType": null,
+      "display": false,
+      "displayName": null
+    },
+    {
+      "fieldCode": "work_order_code",
+      "freeze": false,
+      "displayType": null,
+      "display": true,
+      "displayName": null
+    },
+    {
+      "fieldCode": "work_order_plan_start_time",
+      "freeze": false,
+      "displayType": null,
+      "display": false,
+      "displayName": null
+    },
+    {
+      "fieldCode": "work_order_plan_finish_time",
+      "freeze": false,
+      "displayType": null,
+      "display": false,
+      "displayName": null
+    },
+    {
+      "fieldCode": "process_plan_amount",
+      "freeze": false,
+      "displayType": null,
+      "display": true,
+      "displayName": null
+    },
+    {
+      "fieldCode": "process_node_num",
+      "freeze": false,
+      "displayType": null,
+      "display": true,
+      "displayName": null
+    },
+    {
+      "fieldCode": "process_name",
+      "freeze": false,
+      "displayType": null,
+      "display": true,
+      "displayName": null
+    }
+  ],
+  "bizTheme": 1,
+  "bizReportId": 1705459283650230
 }
 ```
 
