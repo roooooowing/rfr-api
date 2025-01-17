@@ -6,9 +6,9 @@
 详情
 ```
 
-> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/detail
+> URL: http://localhost:8080/web/v1/analysis/config/detail
 >
-> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/detail
+> Origin Url: http://localhost:8080/web/v1/analysis/config/detail
 >
 > Type: POST
 
@@ -78,183 +78,50 @@
       "status": 0,
       "dataSetId": 1705433981406613
     },
+    "conditions": [
+      [
+        {
+          "fieldCode": "work_order_code",
+          "conditionType": 0,
+          "rightPart": {
+            "value": "3",
+            "valueType": 1,
+            "fromValue": null,
+            "toValue": null
+          }
+        }
+      ]
+    ],
+    "timeJobConfig": {
+      "execType": 4,
+      "times": [
+        "04:00"
+      ],
+      "days": [
+        5,
+        4,
+        3
+      ],
+      "weeks": null,
+      "months": [
+        1,
+        2,
+        3
+      ],
+      "firstTime": null,
+      "fixedRate": null,
+      "fixedRateUnit": null,
+      "maxExecCount": null,
+      "stopTime": null,
+      "customs": []
+    },
     "actions": [
       1
     ],
+    "repeatConfig": null,
     "dataSetMeta": {
       "dataSetId": 1705433981406613,
-      "displayFields": [
-        {
-          "fieldCode": "work_order_code",
-          "fieldName": "工单编号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_type_display",
-          "fieldName": "工单类型（目前只有普通）",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_status_display",
-          "fieldName": "业务状态",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_is_pause_display",
-          "fieldName": "工单暂停状态",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_plan_start_time",
-          "fieldName": "计划开始时间",
-          "fieldType": 8
-        },
-        {
-          "fieldCode": "work_order_plan_finish_time",
-          "fieldName": "计划完工时间",
-          "fieldType": 8
-        },
-        {
-          "fieldCode": "process_node_work_center_equipment_names",
-          "fieldName": "工序工作中心设备列表",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_shift_name",
-          "fieldName": "工单班次名",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_production_dpt_display",
-          "fieldName": "生产部门",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_production_supervisor_display",
-          "fieldName": "生产主管",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_output_material_code",
-          "fieldName": "工单主产出物料编号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_output_material_name",
-          "fieldName": "工单主产出物料名称",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_output_material_specification",
-          "fieldName": "工单主产出物料规格",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_output_material_category_name",
-          "fieldName": "工单主产出分类名称",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_output_material_main_unit_display",
-          "fieldName": "工单主产出物料主单位",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "work_order_plan_main_unit_amount",
-          "fieldName": "工单计划数（主单位）",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "work_order_output_material_process_route_code",
-          "fieldName": "工单主产出关联工艺路线编号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_node_seq",
-          "fieldName": "工单工序顺序号",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_node_num",
-          "fieldName": "工单工序号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_code",
-          "fieldName": "工序编号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_name",
-          "fieldName": "工单工序名称",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_is_last_display",
-          "fieldName": "是否为最后一道工序",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_node_work_center_name",
-          "fieldName": "工序工作中心名",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_main_output_material_code",
-          "fieldName": "工序主产出物料编号",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_main_output_material_name",
-          "fieldName": "工序主产出物料名称",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_main_output_material_specification",
-          "fieldName": "工序主产出物料规格",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_main_output_material_main_unit_display",
-          "fieldName": "工序主产出主单位展示",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_plan_amount",
-          "fieldName": "工序计划数",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_report_amount",
-          "fieldName": "工序总报工数",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_qualified_report_amount",
-          "fieldName": "工序合格报工数",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_unqualified_report_amount",
-          "fieldName": "工序总报工数",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_plan_amount_unit_display",
-          "fieldName": "工序单位展示",
-          "fieldType": 1
-        },
-        {
-          "fieldCode": "process_jindu",
-          "fieldName": "工序报工进度",
-          "fieldType": 2
-        },
-        {
-          "fieldCode": "process_hg",
-          "fieldName": "工序合格率",
-          "fieldType": 2
-        }
-      ]
+      "dataSetName": "m117预置数据集01"
     }
   },
   "subCode": null,
