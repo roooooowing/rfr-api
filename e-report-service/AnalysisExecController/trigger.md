@@ -40,7 +40,7 @@
 
 ```
 {
-  "anaId": 1737345649996883
+  "anaId": 1737353310593557
 }
 ```
 
@@ -70,8 +70,8 @@
 ```
 {
   "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/QUERY_DATA_IS_EMPTY",
-  "message": "查询数据为空",
+  "subCode": "E-REPORT-DOMAIN-LOCAL/COMMON_MESSAGE",
+  "message": "SQL执行失败:{0}",
   "needCheck": 0
 }
 ```
