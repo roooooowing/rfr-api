@@ -40,7 +40,7 @@
 
 ```
 {
-  "page": 1,
+  "page":2,
   "size": 20
 }
 ```
@@ -78,7 +78,259 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "list": [
+      {
+        "anaId": 1736831462473803,
+        "code": "ana_1736853253043",
+        "name": "t3告警",
+        "status": 0,
+        "dataSetId": 1715292670106286,
+        "dataSetName": "testjt",
+        "createdAt": 1736853253000,
+        "updatedAt": 1736853253000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1,
+        "code": "ana_1736843818725",
+        "name": "t1告警",
+        "status": 0,
+        "dataSetId": 1715292670106286,
+        "dataSetName": "testjt",
+        "createdAt": 1736843819000,
+        "updatedAt": 1736843819000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736825194566001,
+        "code": "ana_1736825194738",
+        "name": "name_20250114_112634",
+        "status": 0,
+        "dataSetId": 1709767623185359,
+        "dataSetName": "筛选3",
+        "createdAt": 1736825195000,
+        "updatedAt": 1736825195000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736577089298009,
+        "code": "ana_1736577428956",
+        "name": "name_20250111_143708",
+        "status": 0,
+        "dataSetId": 1709767623185359,
+        "dataSetName": "筛选3",
+        "createdAt": 1736577429000,
+        "updatedAt": 1736577429000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736577089298005,
+        "code": "ana_1736577128138",
+        "name": "name_20250111_143208",
+        "status": 0,
+        "dataSetId": 1705434537871008,
+        "dataSetName": "m117预置数据集01",
+        "createdAt": 1736577128000,
+        "updatedAt": 1736577128000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736577089298001,
+        "code": "ana_1736577089733",
+        "name": "name_20250111_143128",
+        "status": 0,
+        "dataSetId": 1,
+        "dataSetName": null,
+        "createdAt": 1736577099000,
+        "updatedAt": 1736577099000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736500767105001,
+        "code": "ana_1736500767322",
+        "name": "name_20250110_171926",
+        "status": 0,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736500774000,
+        "updatedAt": 1736500774000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736499670438011,
+        "code": null,
+        "name": "name_20250110_171806",
+        "status": 0,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736500686000,
+        "updatedAt": 1736500686000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736499670438006,
+        "code": null,
+        "name": "name_20250110_171701",
+        "status": 0,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736500622000,
+        "updatedAt": 1736500622000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736496691049001,
+        "code": "999",
+        "name": "999",
+        "status": 1,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736496691000,
+        "updatedAt": 1736498038000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736479404878017,
+        "code": "code_20250110_135314",
+        "name": "name_20250110_135314",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736488401000,
+        "updatedAt": 1736488401000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736479404878014,
+        "code": "code_20250110_135248",
+        "name": "name_20250110_135248",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736488374000,
+        "updatedAt": 1736488374000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736479404878011,
+        "code": "code_20250110_135222",
+        "name": "name_20250110_135222",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736488342000,
+        "updatedAt": 1736488342000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736479404878008,
+        "code": "code_20250110_135156",
+        "name": "name_20250110_135156",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736488316000,
+        "updatedAt": 1736488316000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764036,
+        "code": "code",
+        "name": "name_20250109_201021",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736424628000,
+        "updatedAt": 1736424628000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764033,
+        "code": "code_20250109_200945",
+        "name": "name_20250109_200945",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736424595000,
+        "updatedAt": 1736424595000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764030,
+        "code": "code_20250109_200923",
+        "name": "name_20250109_200923",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736424572000,
+        "updatedAt": 1736424572000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764025,
+        "code": "code_{{$currentDateTime}}",
+        "name": "name_{{$currentDateTime}}",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736422818000,
+        "updatedAt": 1736422818000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764022,
+        "code": "code_20250109_193441",
+        "name": "name_20250109_193441",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736422741000,
+        "updatedAt": 1736422741000,
+        "action": null,
+        "execType": null
+      },
+      {
+        "anaId": 1736422070764019,
+        "code": "code_20250109_193146",
+        "name": "name_20250109_193146",
+        "status": null,
+        "dataSetId": 111,
+        "dataSetName": null,
+        "createdAt": 1736422332000,
+        "updatedAt": 1736422332000,
+        "action": null,
+        "execType": null
+      }
+    ],
+    "page": 1,
+    "total": 42
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
