@@ -18,7 +18,7 @@
 |Header Name| Header Value|
 |---------|------|
 |x-org-id|10902217|
-|x-user-id|1650360262949770|
+|x-user-id|-1|
 
 ### Parameters
 
@@ -40,7 +40,7 @@
 
 ```
 {
-  "anaId": 1736577089298009
+  "anaId": 1737345649996883
 }
 ```
 
@@ -68,7 +68,12 @@
 ##### Response example
 
 ```
-
+{
+  "code": 0,
+  "subCode": "E-REPORT-DOMAIN-LOCAL/QUERY_DATA_IS_EMPTY",
+  "message": "查询数据为空",
+  "needCheck": 0
+}
 ```
 
 ##### Response document
@@ -76,39 +81,58 @@
 {
 	"code":"状态码",
 	"data":{
+		"anaExecId":"No comment,Type =Number",
 		"data":[
-			{}
+			{
+				"valid":"是否有效",
+				"anaExecId":"分析执行记录ID",
+				"repeatKey":"重复键",
+				"data":{},
+				"anaId":"分析告警配置ID"
+			}
 		],
+		"totalCount":"No comment,Type =Number",
 		"config":{
 			"baseInfo":{
+				"createdAt":"创建时间",
 				"code":"编号",
 				"dataSetId":"数据集ID",
 				"anaId":"ID",
 				"name":"名称",
-				"status":"状态 0-未启用 1-启用"
+				"status":"状态 0-未启用 1-启用",
+				"updatedAt":"更新时间"
 			},
 			"timeJobConfig":{
-				"config":{
-					"firstTime":"固定周期类型：首次触发时间",
-					"times":"时间列表：每日的几点 hh:mm:ss",
-					"weeks":"星期列表：每周的星期几",
-					"months":"月份列表：每年的几月份",
-					"fixedRate":"固定周期类型：执行间隔，前一次开始执行之后多久执行下次",
-					"fixedRateUnit":"固定周期类型：执行间隔单位，1：天；2：小时；3：分钟",
-					"customs":"自定义类型：日期时间列表[{ date: 1692759096773, time: [\"hh:mm:ss\"] }]",
-					"days":"日期列表：每月的几号",
-					"maxExecCount":"固定周期类型：最大执行次数",
-					"stopTime":"固定周期类型：停止触发时间",
-					"id":"id",
-					"execType":"执行频率类型：1每日；2每周；3每月；4每年；5固定周期；6自定义"
-				},
-				"relatedId":"定时器配置ID"
+				"firstTime":"固定周期类型：首次触发时间",
+				"times":[
+					"时间列表：每日的几点[\\HH:mm:ss\\]"
+				],
+				"weeks":[
+					"星期列表：每周的星期几"
+				],
+				"months":[
+					"月份列表：每年的几月份"
+				],
+				"fixedRate":"固定周期类型：执行间隔，前一次开始执行之后多久执行下次",
+				"fixedRateUnit":"固定周期类型：执行间隔单位，1：天；2：小时；3：分钟",
+				"customs":[
+					{
+						"date":"日期：yyyy-MM-dd",
+						"times":[
+							"时间列表：每日的几点[\\HH:mm:ss\\]"
+						]
+					}
+				],
+				"days":[
+					"日期列表：每月的几号"
+				],
+				"maxExecCount":"固定周期类型：最大执行次数",
+				"stopTime":"固定周期类型：停止触发时间",
+				"execType":"执行频率类型：1每日；2每周；3每月；4每年；5固定周期；6自定义；7每小时"
 			},
+			"action":"触发动作",
 			"conditions":[
 				{}
-			],
-			"actions":[
-				"触发动作"
 			],
 			"repeatConfig":{
 				"checkTimeNum":"时间范围",
@@ -116,8 +140,47 @@
 					"检查字段"
 				],
 				"checkTimeUnit":"时间单位"
+			},
+			"dataSetMeta":{
+				"conditionFields":[
+					{
+						"controlConfig":{
+							"optionalConfig":[
+								"可选项配置 - 手动配置"
+							],
+							"controlType":"控件类型，1-搜索类型， 2-下拉控件",
+							"databaseName":"可选项配置-指定数据表",
+							"dataTableName":"可选项配置-指定数据表",
+							"optionalSource":"可选项来源，1-手动配置， 2-指定数据表",
+							"dataFieldCode":"可选项配置-字段"
+						},
+						"fieldName":"字段名称",
+						"fieldCode":"字段编号",
+						"fieldType":"字段类型"
+					}
+				],
+				"dataSetId":"数据集id",
+				"dataSetName":"名称",
+				"displayFields":[
+					{
+						"controlConfig":{
+							"optionalConfig":[
+								"可选项配置 - 手动配置"
+							],
+							"controlType":"控件类型，1-搜索类型， 2-下拉控件",
+							"databaseName":"可选项配置-指定数据表",
+							"dataTableName":"可选项配置-指定数据表",
+							"optionalSource":"可选项来源，1-手动配置， 2-指定数据表",
+							"dataFieldCode":"可选项配置-字段"
+						},
+						"fieldName":"字段名称",
+						"fieldCode":"字段编号",
+						"fieldType":"字段类型"
+					}
+				]
 			}
-		}
+		},
+		"repeatCount":"No comment,Type =Number"
 	},
 	"subCode":"错误码",
 	"needCheck":"是否需要二次确认 0 强管控 不需要确认 1 弱管控 需要用户两次确认",
