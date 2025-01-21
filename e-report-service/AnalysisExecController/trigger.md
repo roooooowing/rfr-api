@@ -71,7 +71,7 @@
 {
   "code": 200,
   "data": {
-    "anaExecId": 1737445663514001,
+    "anaExecId": 1737435473317097,
     "totalCount": 100,
     "repeatCount": 0,
     "config": {
@@ -88,9 +88,18 @@
         "times": [
           "10:00"
         ],
+        "days": null,
+        "weeks": null,
+        "months": null,
+        "firstTime": null,
+        "fixedRate": null,
+        "fixedRateUnit": null,
+        "maxExecCount": null,
+        "stopTime": null,
         "customs": []
       },
       "action": 1,
+      "repeatConfig": null,
       "dataSetMeta": {
         "dataSetId": 1737353008467251,
         "dataSetName": "简单测试_MFG"
@@ -99,7 +108,674 @@
     "data": [
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1651819181714076,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-05-06-001",
+          "work_order_plan_finish_time": 1651908785000,
+          "work_order_id": 1651819181714074,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1651766400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1651819181714077,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-05-06-001",
+          "work_order_plan_finish_time": 1651908785000,
+          "work_order_id": 1651819181714074,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1651766400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653455535160113,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-004",
+          "work_order_plan_finish_time": 1653476144000,
+          "work_order_id": 1653455535160111,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653455535160114,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-004",
+          "work_order_plan_finish_time": 1653476144000,
+          "work_order_id": 1653455535160111,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653462936403025,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-005",
+          "work_order_plan_finish_time": 1653479167000,
+          "work_order_id": 1653462936403023,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653462936403026,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-005",
+          "work_order_plan_finish_time": 1653479167000,
+          "work_order_id": 1653462936403023,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653462936403070,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-008",
+          "work_order_plan_finish_time": 1653482923000,
+          "work_order_id": 1653462936403068,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653462936403071,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-008",
+          "work_order_plan_finish_time": 1653482923000,
+          "work_order_id": 1653462936403068,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653463993111028,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-006",
+          "work_order_plan_finish_time": 1653482923000,
+          "work_order_id": 1653463993111026,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653463993111029,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-006",
+          "work_order_plan_finish_time": 1653482923000,
+          "work_order_id": 1653463993111026,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653408000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653463993111408,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-26-001",
+          "work_order_plan_finish_time": 1653552675000,
+          "work_order_id": 1653463993111406,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653494400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653463993111409,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-26-001",
+          "work_order_plan_finish_time": 1653552675000,
+          "work_order_id": 1653463993111406,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653494400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1653463993111485,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-26-002",
+          "work_order_plan_finish_time": 1653550499000,
+          "work_order_id": 1653463993111483,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1653494400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1653463993111486,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-26-002",
+          "work_order_plan_finish_time": 1653550499000,
+          "work_order_id": 1653463993111483,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1653494400000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1654049715993002,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-06-01-001",
+          "work_order_plan_finish_time": 1654066756000,
+          "work_order_id": 1654049715993000,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1654049715993003,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-06-01-001",
+          "work_order_plan_finish_time": 1654066756000,
+          "work_order_id": 1654049715993000,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1654049715993140,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-100000",
+          "work_order_plan_finish_time": 1654071786000,
+          "work_order_id": 1654049715993138,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1654049715993141,
+          "process_plan_amount": 10.0000000000,
+          "work_order_code": "2022-05-25-100000",
+          "work_order_plan_finish_time": 1654071786000,
+          "work_order_id": 1654049715993138,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1654049715993323,
+          "process_plan_amount": 5.9999990000,
+          "work_order_code": "2022-05-25-100001",
+          "work_order_plan_finish_time": 1654072353000,
+          "work_order_id": 1654049715993321,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1654049715993324,
+          "process_plan_amount": 5.9999990000,
+          "work_order_code": "2022-05-25-100001",
+          "work_order_plan_finish_time": 1654072353000,
+          "work_order_id": 1654049715993321,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1654012800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1655391354179110,
+          "process_plan_amount": 4.0000000000,
+          "work_order_code": "2022-06-17-0050-018",
+          "work_order_plan_finish_time": 1655296220000,
+          "work_order_id": 1655388383503678,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1655226061000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "MA00000012-2022_06_07596-10",
+          "process_id": 1656330045481516,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-06-28-002",
+          "work_order_plan_finish_time": 1656425067000,
+          "work_order_id": 1656330045481514,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "汉字2022_06_07418",
+          "process_main_output_material_main_unit_display": "测试单位精度1",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1656345600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "MA00000012",
+          "process_id": 1656330045481517,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-06-28-002",
+          "work_order_plan_finish_time": 1656425067000,
+          "work_order_id": 1656330045481514,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "汉字2022_06_07_1654590755368",
+          "process_main_output_material_main_unit_display": "测试单位精度1",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1656345600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "MA00000012-2022_06_07code420-10",
+          "process_id": 1656330045481631,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-06-28-003",
+          "work_order_plan_finish_time": 1656428816000,
+          "work_order_id": 1656330045481629,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "汉字2022_06_07name403",
+          "process_main_output_material_main_unit_display": "测试单位精度1",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1656345600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "MA00000012-2022_06_07code347-20",
+          "process_id": 1656330045481632,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-06-28-003",
+          "work_order_plan_finish_time": 1656428816000,
+          "work_order_id": 1656330045481629,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "汉字2022_06_07name900",
+          "process_main_output_material_main_unit_display": "测试单位精度1",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1656345600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "MA00000012",
+          "process_id": 1656330045481633,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022-06-28-003",
+          "work_order_plan_finish_time": 1656428816000,
+          "work_order_id": 1656330045481629,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "汉字2022_06_07_1654590755368",
+          "process_main_output_material_main_unit_display": "测试单位精度1",
+          "process_node_num": "30",
+          "work_order_plan_start_time": 1656345600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wlZ",
+          "process_id": 1660197404137184,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022081100000",
+          "work_order_plan_finish_time": 1660291820000,
+          "work_order_id": 1660197404137182,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1660147200000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "snr",
+          "process_id": 1660285847984155,
+          "process_plan_amount": 150.0000000000,
+          "work_order_code": "2022081200001",
+          "work_order_plan_finish_time": 1660722677000,
+          "work_order_id": 1660285847984153,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1660233600000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001-GX-001-10",
+          "process_id": 1660883003878046,
+          "process_plan_amount": 20.0000000000,
+          "work_order_code": "csrz-0012",
+          "work_order_plan_finish_time": 1661583477000,
+          "work_order_id": 1660883003878044,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-001",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1660842061000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "ZZWL-001",
+          "process_id": 1660883003878047,
+          "process_plan_amount": 20.0000000000,
+          "work_order_code": "csrz-0012",
+          "work_order_plan_finish_time": 1661583477000,
+          "work_order_id": 1660883003878044,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序-002",
+          "process_main_output_material_main_unit_display": "张",
+          "process_node_num": "20",
+          "work_order_plan_start_time": 1660842061000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "BCP0811-003",
+          "process_id": 1660899161453101,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022082000006",
+          "work_order_plan_finish_time": 1661238696000,
+          "work_order_id": 1660899161453099,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "工序_011",
+          "process_main_output_material_main_unit_display": "卷",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1660924800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl05",
+          "process_id": 1661218007722068,
+          "process_plan_amount": 100.0000000000,
+          "work_order_code": "2022082300001",
+          "work_order_plan_finish_time": 1661222773000,
+          "work_order_id": 1661218007722066,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1661184000000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl07",
+          "process_id": 1662709423693153,
+          "process_plan_amount": 321.0000000000,
+          "work_order_code": "22090062wl07",
+          "work_order_plan_finish_time": 1662713153000,
+          "work_order_id": 1662709423693151,
+          "process_node_work_center_equipment_ids": "\"[1661246786110871]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1662652800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl07",
+          "process_id": 1663853590049043,
+          "process_plan_amount": 321.0000000000,
+          "work_order_code": "2209006awl07",
+          "work_order_plan_finish_time": 1662713153000,
+          "work_order_id": 1663853590049041,
+          "process_node_work_center_equipment_ids": "\"[1661246786110871]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1662652800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl07",
+          "process_id": 1663853590049073,
+          "process_plan_amount": 321.0000000000,
+          "work_order_code": "2209006bwl07",
+          "work_order_plan_finish_time": 1662713153000,
+          "work_order_id": 1663853590049071,
+          "process_node_work_center_equipment_ids": "\"[1661246786110871]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1662652800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl07",
+          "process_id": 1663853590049103,
+          "process_plan_amount": 321.0000000000,
+          "work_order_code": "22090001wl07",
+          "work_order_plan_finish_time": 1662713153000,
+          "work_order_id": 1663853590049101,
+          "process_node_work_center_equipment_ids": "\"[1661246786110871]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1662652800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
+        "data": {
+          "process_main_output_material_code": "wl04",
+          "process_id": 1665701477775026,
+          "process_plan_amount": 299.0000000000,
+          "work_order_code": "2210140028wl04",
+          "work_order_plan_finish_time": 1667184835000,
+          "work_order_id": 1665701477775024,
+          "process_node_work_center_equipment_ids": "\"[]\"",
+          "process_name": "zzw1pp",
+          "process_main_output_material_main_unit_display": "克",
+          "process_node_num": "10",
+          "work_order_plan_start_time": 1665676800000
+        }
+      },
+      {
+        "anaId": 1737353310593557,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "0328zwl001-0328gx001-10",
           "process_id": 1648258514137302,
@@ -116,7 +792,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "0328zwl001",
           "process_id": 1648258514137303,
@@ -133,7 +810,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648258514137337,
@@ -150,7 +828,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575073,
@@ -167,7 +846,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575088,
@@ -184,7 +864,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575103,
@@ -201,7 +882,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575118,
@@ -218,7 +900,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575133,
@@ -235,7 +918,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575148,
@@ -252,7 +936,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575163,
@@ -269,7 +954,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575178,
@@ -286,7 +972,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575193,
@@ -303,7 +990,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575208,
@@ -320,7 +1008,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575223,
@@ -337,7 +1026,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575238,
@@ -354,7 +1044,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575253,
@@ -371,7 +1062,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575268,
@@ -388,7 +1080,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575283,
@@ -405,7 +1098,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575298,
@@ -422,7 +1116,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575313,
@@ -439,7 +1134,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575328,
@@ -456,7 +1152,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575343,
@@ -473,7 +1170,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw1",
           "process_id": 1648554580575358,
@@ -490,7 +1188,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd003",
           "process_id": 1649855893995053,
@@ -507,7 +1206,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd003",
           "process_id": 1649855893995067,
@@ -524,7 +1224,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "CA00000020",
           "process_id": 1650789256762043,
@@ -541,7 +1242,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "CA00000020",
           "process_id": 1650863012246013,
@@ -558,7 +1260,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "CA00000020",
           "process_id": 1651056723038010,
@@ -575,7 +1278,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw6-gzgx-10",
           "process_id": 1651895096603737,
@@ -592,7 +1296,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "13010000004",
           "process_id": 1651895096603738,
@@ -609,7 +1314,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "zzw6-gzgx-10",
           "process_id": 1651895096603791,
@@ -626,7 +1332,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "13010000004",
           "process_id": 1651895096603792,
@@ -643,7 +1350,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422000,
@@ -660,7 +1368,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422011,
@@ -677,7 +1386,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422022,
@@ -694,7 +1404,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422033,
@@ -711,7 +1422,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422044,
@@ -728,7 +1440,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422055,
@@ -745,7 +1458,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422066,
@@ -762,7 +1476,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422077,
@@ -779,7 +1494,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422088,
@@ -796,7 +1512,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422099,
@@ -813,7 +1530,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422110,
@@ -830,7 +1548,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422121,
@@ -847,7 +1566,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422132,
@@ -864,7 +1584,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422143,
@@ -881,7 +1602,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422154,
@@ -898,7 +1620,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422165,
@@ -915,7 +1638,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422176,
@@ -932,7 +1656,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422187,
@@ -949,7 +1674,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422198,
@@ -966,7 +1692,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422209,
@@ -983,7 +1710,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422220,
@@ -1000,7 +1728,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422231,
@@ -1017,7 +1746,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422242,
@@ -1034,7 +1764,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422253,
@@ -1051,7 +1782,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422264,
@@ -1068,7 +1800,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422275,
@@ -1085,7 +1818,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422286,
@@ -1102,7 +1836,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422297,
@@ -1119,7 +1854,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422308,
@@ -1136,7 +1872,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422319,
@@ -1153,7 +1890,8 @@
       },
       {
         "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
+        "anaExecId": 1737435473317097,
+        "repeatKey": null,
         "data": {
           "process_main_output_material_code": "swd001",
           "process_id": 1652077576422330,
@@ -1167,639 +1905,13 @@
           "process_node_num": "10",
           "work_order_plan_start_time": 1652025600000
         }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422341,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1509267104",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422339,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422352,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1093357226",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422350,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422363,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1080203398",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422361,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422374,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd168201034",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422372,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422385,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd328076438",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422383,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422396,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd589678696",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422394,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422407,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd948637624",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422405,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422418,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1843910061",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422416,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422429,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1801187656",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422427,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422440,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd43092381",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422438,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422451,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd352851693",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422449,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422462,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1762060604",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422460,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422473,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd516598318",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422471,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422484,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1115603803",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422482,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422495,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1610462371",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422493,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422506,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1415865809",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422504,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422517,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd315657648",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422515,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422528,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd664094349",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422526,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422539,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1648506853",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422537,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422550,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd164357878",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422548,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422561,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd847596589",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422559,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422572,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1246692815",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422570,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422583,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd401169956",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422581,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422594,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd10865232",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422592,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422605,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd40806167",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422603,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422616,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd176331498",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422614,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422627,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd782418976",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422625,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422638,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1891545769",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422636,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422649,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd677787707",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422647,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422660,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1242982891",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422658,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422671,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1568748545",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422669,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422682,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1457516953",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422680,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422693,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd606415646",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422691,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422704,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1801755614",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422702,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422715,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd2017952386",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422713,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422726,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd22847951",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422724,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
-      },
-      {
-        "anaId": 1737353310593557,
-        "anaExecId": 1737445663514001,
-        "data": {
-          "process_main_output_material_code": "swd001",
-          "process_id": 1652077576422737,
-          "process_plan_amount": 100.0000000000,
-          "work_order_code": "songwd1429138051",
-          "work_order_plan_finish_time": 1652077512000,
-          "work_order_id": 1652077576422735,
-          "process_node_work_center_equipment_ids": "\"[]\"",
-          "process_name": "CP1",
-          "process_main_output_material_main_unit_display": "千克",
-          "process_node_num": "10",
-          "work_order_plan_start_time": 1652025600000
-        }
       }
     ]
   },
-  "message": "成功"
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
