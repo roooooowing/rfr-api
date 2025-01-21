@@ -69,10 +69,13 @@
 
 ```
 {
-  "code": 0,
-  "subCode": "E-REPORT-DOMAIN-LOCAL/COMMON_MESSAGE",
-  "message": "SQL执行失败:{0}",
-  "needCheck": 0
+  "code": 200,
+  "data": {
+    "list": [],
+    "page": 1,
+    "total": 0
+  },
+  "message": "成功"
 }
 ```
 
