@@ -6,9 +6,9 @@
 列表筛选
 ```
 
-> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/page
+> URL: http://localhost:8080/web/v1/analysis/config/page
 >
-> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/page
+> Origin Url: http://localhost:8080/web/v1/analysis/config/page
 >
 > Type: POST
 
@@ -42,8 +42,7 @@
 {
   "dataSetIds": [],
   "page": 1,
-  "size": 20,
-  "execType": [
+  "execTypes": [
     2
   ]
 }
@@ -94,14 +93,76 @@
 {
   "code": 200,
   "data": {
-    "list": [],
+    "list": [
+      {
+        "anaId": 1737353310593557,
+        "code": "ana_1737373434494",
+        "name": "测试_mfg_001",
+        "status": 1,
+        "dataSetId": 1737353008467251,
+        "createdAt": 1737373434000,
+        "updatedAt": 1737373499000,
+        "action": 1
+      },
+      {
+        "anaId": 1737345649996883,
+        "code": "ana_1737365490978",
+        "name": "测试_生产主题_001",
+        "status": 0,
+        "dataSetId": 1704652503876731,
+        "createdAt": 1737365491000,
+        "updatedAt": 1737373438000
+      },
+      {
+        "anaId": 1736831462473803,
+        "code": "ana_1736853253043",
+        "name": "t3告警",
+        "status": 0,
+        "dataSetId": 1715292670106286,
+        "createdAt": 1736853253000,
+        "updatedAt": 1736853253000
+      },
+      {
+        "anaId": 1,
+        "code": "ana_1736843818725",
+        "name": "t1告警",
+        "status": 0,
+        "dataSetId": 1715292670106286,
+        "createdAt": 1736843819000,
+        "updatedAt": 1736843819000
+      },
+      {
+        "anaId": 1736825194566001,
+        "code": "ana_1736825194738",
+        "name": "name_20250114_112634",
+        "status": 0,
+        "dataSetId": 1709767623185359,
+        "createdAt": 1736825195000,
+        "updatedAt": 1736825195000
+      },
+      {
+        "anaId": 1736577089298009,
+        "code": "ana_1736577428956",
+        "name": "name_20250111_143708",
+        "status": 0,
+        "dataSetId": 1709767623185359,
+        "createdAt": 1736577429000,
+        "updatedAt": 1736577429000
+      },
+      {
+        "anaId": 1736577089298005,
+        "code": "ana_1736577128138",
+        "name": "name_20250111_143208",
+        "status": 0,
+        "dataSetId": 1705434537871008,
+        "createdAt": 1736577128000,
+        "updatedAt": 1736577128000
+      }
+    ],
     "page": 1,
-    "total": 0
+    "total": 7
   },
-  "subCode": null,
-  "message": "成功",
-  "needCheck": null,
-  "fieldPermission": null
+  "message": "成功"
 }
 ```
 
