@@ -6,9 +6,9 @@
 列表筛选
 ```
 
-> URL: http://localhost:8080/web/v1/analysis/config/page
+> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/page
 >
-> Origin Url: http://localhost:8080/web/v1/analysis/config/page
+> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/config/page
 >
 > Type: POST
 
@@ -17,7 +17,7 @@
 
 |Header Name| Header Value|
 |---------|------|
-|x-org-id|1644336002010009|
+|x-org-id|10902217|
 |x-user-id|-1|
 
 ### Parameters
@@ -98,7 +98,10 @@
     "page": 1,
     "total": 0
   },
-  "message": "成功"
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
 }
 ```
 
