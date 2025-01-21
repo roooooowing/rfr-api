@@ -40,7 +40,7 @@
 
 ```
 {
-  "execType": 1,
+  "execType": 2,
   "page": 1,
   "size": 20
 }
@@ -114,60 +114,10 @@
         "createdAt": 1737365491000,
         "updatedAt": 1737373438000,
         "execType": 1
-      },
-      {
-        "anaId": 1736831462473803,
-        "code": "ana_1736853253043",
-        "name": "t3告警",
-        "status": 0,
-        "dataSetId": 1715292670106286,
-        "dataSetName": "testjt",
-        "createdAt": 1736853253000,
-        "updatedAt": 1736853253000
-      },
-      {
-        "anaId": 1,
-        "code": "ana_1736843818725",
-        "name": "t1告警",
-        "status": 0,
-        "dataSetId": 1715292670106286,
-        "dataSetName": "testjt",
-        "createdAt": 1736843819000,
-        "updatedAt": 1736843819000
-      },
-      {
-        "anaId": 1736825194566001,
-        "code": "ana_1736825194738",
-        "name": "name_20250114_112634",
-        "status": 0,
-        "dataSetId": 1709767623185359,
-        "dataSetName": "筛选3",
-        "createdAt": 1736825195000,
-        "updatedAt": 1736825195000
-      },
-      {
-        "anaId": 1736577089298009,
-        "code": "ana_1736577428956",
-        "name": "name_20250111_143708",
-        "status": 0,
-        "dataSetId": 1709767623185359,
-        "dataSetName": "筛选3",
-        "createdAt": 1736577429000,
-        "updatedAt": 1736577429000
-      },
-      {
-        "anaId": 1736577089298005,
-        "code": "ana_1736577128138",
-        "name": "name_20250111_143208",
-        "status": 0,
-        "dataSetId": 1705434537871008,
-        "dataSetName": "m117预置数据集01",
-        "createdAt": 1736577128000,
-        "updatedAt": 1736577128000
       }
     ],
     "page": 1,
-    "total": 7
+    "total": 2
   },
   "message": "成功"
 }
