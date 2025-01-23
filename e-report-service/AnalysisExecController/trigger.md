@@ -6,9 +6,9 @@
 手动触发
 ```
 
-> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/exec/trigger
+> URL: http://localhost:8080/web/v1/analysis/exec/trigger
 >
-> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/exec/trigger
+> Origin Url: http://localhost:8080/web/v1/analysis/exec/trigger
 >
 > Type: POST
 
@@ -68,35 +68,7 @@
 ##### Response example
 
 ```
-{
-  "code": 200,
-  "data": {
-    "list": [
-      {
-        "anaId": 1737353310593557,
-        "code": "ana_1737373434494",
-        "name": "测试_mfg_001",
-        "status": 1,
-        "dataSetId": 1737353008467251,
-        "createdAt": 1737373434000,
-        "updatedAt": 1737373499000,
-        "action": 1
-      },
-      {
-        "anaId": 1737345649996883,
-        "code": "ana_1737365490978",
-        "name": "测试_生产主题_001",
-        "status": 0,
-        "dataSetId": 1704652503876731,
-        "createdAt": 1737365491000,
-        "updatedAt": 1737373438000
-      }
-    ],
-    "page": 1,
-    "total": 2
-  },
-  "message": "成功"
-}
+
 ```
 
 ##### Response document
