@@ -17,7 +17,7 @@
 
 |Header Name| Header Value|
 |---------|------|
-|x-org-id|10902217|
+|x-org-id|10162960|
 |x-user-id|-1|
 
 ### Parameters
@@ -42,14 +42,7 @@
 {
   "anaExecId": 1,
   "page": 1,
-  "size": 20,
-  "sorter": [
-    {
-      "field": "name",
-      "order": "asc"
-    }
-  ],
-  "selectFlag": 1
+  "size": 20
 }
 ```
 
@@ -86,7 +79,18 @@
 ##### Response example
 
 ```
-
+{
+  "code": 200,
+  "data": {
+    "list": [],
+    "page": 1,
+    "total": 0
+  },
+  "subCode": null,
+  "message": "成功",
+  "needCheck": null,
+  "fieldPermission": null
+}
 ```
 
 ##### Response document
