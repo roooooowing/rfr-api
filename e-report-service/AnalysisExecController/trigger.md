@@ -6,9 +6,9 @@
 手动触发
 ```
 
-> URL: http://localhost:8080/web/v1/analysis/exec/trigger
+> URL: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/exec/trigger
 >
-> Origin Url: http://localhost:8080/web/v1/analysis/exec/trigger
+> Origin Url: http://e-report-domain-feature.test.blacklake.tech/web/v1/analysis/exec/trigger
 >
 > Type: POST
 
@@ -40,7 +40,7 @@
 
 ```
 {
-  "anaId": 1736577089298009
+  "anaId": 1738829586343257
 }
 ```
 
